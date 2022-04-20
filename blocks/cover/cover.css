@@ -3,7 +3,7 @@
 @import url(./__link/cover__link.css);*/
 
 .cover{
-    background-image: url(../../images/cover/__background.jpg);
+    background-image: url(../../images/cover/cover-trains.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
