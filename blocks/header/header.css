@@ -5,8 +5,7 @@
 @import url(./__item/header__item.css);*/
 
 .header {
-    max-width: 1184px;
-    /*max-height: 52px;*/   
+    max-width: 1184px;  
     display: flex;
     justify-content: space-between;
     align-items: center;
