@@ -34,7 +34,15 @@
 }
 
 
-@media screen and (min-width:1025px) {
+@media screen and (min-width:1281px){
+    .cover{
+        height: 740px;
+        max-width: 1184px;
+        margin: 0 auto 92px;
+    }
+} 
+
+@media screen and (min-width:1025px) and (max-width:1280px) {
     .cover{
         margin-left: 4vw;
         margin-right: 4vw;

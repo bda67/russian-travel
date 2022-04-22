@@ -6,12 +6,19 @@
     font-size: 30px;
     line-height: 36px;
     padding-bottom: 56px;
+    max-width: 640px;
 }
 @media screen and (max-width: 767px) {
     .lead__subtitle {
       font-size: 4.5vw;
       line-height: 1.2;
-      max-width: 90%;
+      max-width: 70%;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1023px){
+    .lead__subtitle{
+      
     }
   }
   
@@ -22,7 +29,7 @@
       padding-bottom: 40px;
     }
   }
-  @media screen and (max-width: 1280) {
+  @media screen and (min-width: 1280) {
     .lead__subtitle {
       padding-bottom: 64px;
     }

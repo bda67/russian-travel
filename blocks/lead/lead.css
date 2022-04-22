@@ -36,5 +36,6 @@
   .lead{
     padding-left: 12vw;
     padding-right: 12vw;
+    max-width: 80%;
   }
 }
