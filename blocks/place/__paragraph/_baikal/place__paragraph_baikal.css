@@ -1,0 +1,5 @@
+@media screen and (min-width:270px) and (max-width:767px) {
+    .place__paragraph_baikal{
+        max-width: 278px;
+    }
+}

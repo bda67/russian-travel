@@ -9,8 +9,6 @@
     background-position: center;
     object-fit: cover;
     max-width: 100%;
-    height: 640px;
-    padding: 0;
     margin-bottom: 92px;
     display: block;
     position: relative;
@@ -33,38 +31,37 @@
     transition: opacity .2s ease;
 }
 
-
-@media screen and (min-width:1281px){
+ @media screen and (min-width:1280px){
+     .cover{
+         padding: 247px 312px;
+         margin-left: 48px;
+         margin-right: 48px;
+     }
+ }
+@media screen and (min-width:1024px) and (max-width:1279px) {
     .cover{
-        height: 740px;
-        max-width: 1184px;
-        margin: 0 auto 92px;
-    }
-} 
-
-@media screen and (min-width:1025px) and (max-width:1280px) {
-    .cover{
-        margin-left: 4vw;
-        margin-right: 4vw;
+       padding: 195px 232px;
     }
 }
 
 @media screen and (min-width:768px) and (max-width:1023px){
     .cover{
-        height: 480px;
+        padding: 115px 104px;
         margin-bottom: 88px;
     }
 }
-@media screen and (max-width:320px) {
+@media screen and (min-width:325px) and (max-width:767px) {
     .cover{
-        height: 200px;
+        padding: 19% 16px; 
+    }
+}
+@media screen and (max-width: 767px){
+    .cover{
         margin-bottom: 64px;
     }
 }
-
-@media screen and (min-width:321px) and (max-width:767px) {
+@media screen and (max-width: 324px){
     .cover{
-        height: calc(200px + 18vw);
-        margin-bottom: 64px;
+        padding: 36px 16px;
     }
 }

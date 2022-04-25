@@ -5,11 +5,15 @@
     letter-spacing: 1.5px;
     text-transform: uppercase;
     margin: 0;
-    padding: 8px 0;
+    /*padding: 7px 0;*/
+    padding-top: 5px;
+    padding-bottom:9px;
+    padding-right: 0;
+    padding-left: 0S;
     align-self: flex-start;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width:321px) and (max-width: 768px) {
         .lead__image-description {
           padding-left: 24px;
         }

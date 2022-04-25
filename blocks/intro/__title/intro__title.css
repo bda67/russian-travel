@@ -10,5 +10,12 @@
     .intro__title{
         font-size: 32px;
         line-height: 35px;
+        max-width: 208px;
+    }
+}
+@media screen and (min-width:1281px) {
+    .intro__title{
+        padding-bottom: 39px;
+        max-width: 690px;
     }
 }
