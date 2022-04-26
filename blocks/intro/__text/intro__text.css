@@ -19,12 +19,7 @@
 }
 @media screen and (min-width:1280px) {
     .intro__text{
-        max-width: 713px;
+        max-width: 705px;
     }
 }
-@media screen and (min-width:1281px) {
-    .intro__text{
-        padding-bottom: 33px;
-        max-width: 687px;
-    }
-}
+

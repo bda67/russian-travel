@@ -26,16 +26,17 @@
       padding-right: 48px;
     }
 }
-@media screen and (min-width: 1025px) and (max-width:1280px){
+@media screen and (min-width: 1025px){
   .lead{
     padding-left: 148px;
     padding-right: 148px;
+    max-width: 100%;
   }
 }
-@media screen and (min-width: 1281px) {
+/*@media screen and (min-width: 1281px) {
   .lead{
     padding-left: 7vw;
     padding-right: 7vw;
     max-width: 100%;
   }
-}
+}*/
